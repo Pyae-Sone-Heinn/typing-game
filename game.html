@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 6 Project</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+     <script src="https://kit.awesome.com/bbdccb4e58.js" crossorigin="anonymous"></script>
+
+</head>
+<div class="alert alert-primary" role="alert" style="font-size: 20px;">
+    <span id="timeInterval">Hello,Good Night 🌜</span> 
+<button class="btn btn-outline-primary" onclick="popUp()">User</button>
+ 
+ oncontextmenu="return true"
+  <div class="bar">
+    <h1>Typing game</h1>
+
+    <h3>   
+        <span>Score</span>
+        <span id = "score">0</span>
+    </h3>
+    <h3>
+        <span>Time</span>
+        <span id = "time">s</span>
+    </h3>
+    </div>
+    <div class="container">
+        <div class = "row">
+            <div class="col-12 col-md-8 col-lg-6 mx-auto text-text-center">
+            <p id="random" class="mt-5" oncopy="return false"></p>
+    <button class = "btn btn-outline-info mb-3" onclick ="skip()">Skip</button> 
+    <button class = "btn btn-outline-info mb-3" id ="playAgain">Play again</button> 
+    <textarea onpaste="return false" id="typedWord" 
+    placeholder="Type the above  sentence correctly" class="form-control mt-3"></textarea>
+        </div>
+   </div>
+</div>
+
+
+</body>
+<script src="script.js"></script>
+</html>
